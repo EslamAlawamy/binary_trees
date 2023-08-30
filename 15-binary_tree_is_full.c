@@ -14,6 +14,7 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 
 	return (leaf);
 }
+
 /**
  * binary_tree_is_parent_full - checks if the node is a parent
  * @node: pointer to the node to check it
@@ -28,6 +29,7 @@ int binary_tree_is_parent_full(const binary_tree_t *node)
 
 	return (parent);
 }
+
 /**
  * binary_tree_is_full - checks if the binary tree is full
  * @tree: pointer to the root node of the tree to check
